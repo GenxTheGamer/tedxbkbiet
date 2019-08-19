@@ -1,0 +1,34 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+}
+@import "fonts.css";
+
+.footer{
+	background-color: #000;
+	color: red;
+	font-family: ;
+	margin-bottom: 0px;
+}
+p#footerline{
+	text-align: center;
+	font-family:monospace;
+	color: white;
+	font-size: 12px;
+	margin: 0px;
+}
+#upbtn{
+	background-color: red;
+	color: white;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+#upbtn:hover{
+	background-color: darkred;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
