@@ -32,3 +32,8 @@ p#footerline{
 	bottom: 20px;
 	right: 20px;
 }
+#nav{
+	font-family: gracetians;
+	font-size: 17px;
+	text-align: right;
+}
