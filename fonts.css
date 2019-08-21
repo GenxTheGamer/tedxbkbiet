@@ -23,7 +23,8 @@
 	src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
 }
 @font-face{
-	font-family:"alidth";	src:url("fonts/aldith/aldith.otf");
+	font-family:"alidth";	
+    src:url("fonts/aldith/aldith.otf");
 }
 @font-face{
 	font-family:"gracetians";
@@ -32,4 +33,8 @@
 @font-face{
 	font-family:"lux-montag";
 	src:url("fonts/lux-montag/Lux-Montag.ttf");
+}
+@font-face{
+    font-family:"lemonmilk";
+    src:url("fonts/lemonmilk/LemonMilklight.otf");
 }
