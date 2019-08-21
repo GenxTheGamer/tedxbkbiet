@@ -37,3 +37,6 @@ p#footerline{
 	font-size: 17px;
 	text-align: right;
 }
+#text-justify{
+    text-align: center;
+}
