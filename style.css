@@ -1,9 +1,26 @@
-html,body{
+html,
+body{
 	margin: 0px;
 	padding: 0px;
 }
+
+img {
+	max-width: 100%;
+}
+
 @import "fonts.css";
 
+#cover{
+	background: url('img/cover.jpg') center center no-repeat;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+#cover-caption{
+	width: 100%;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -45,71 +62,70 @@ p#footerline{
 	text-align: right;
 }
 #text-justify{
-    text-align: center;
+	text-align: center;
 }
 /*--------------------------------------------------------------
 # HR Styling
 --------------------------------------------------------------*/
 
 hr.styleline { 
-  border: 0; 
-  height: 1px; 
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 /*
 p.lead{
-    text-align: center;
-    color:crimson;
+text-align: center;
+color:crimson;
 }
 h1.display-5{
-    text-align: center;
-    color:darkred;
+text-align: center;
+color:darkred;
 }
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background-color: black;
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  color: #fff;
-  padding: 60px 0 40px 0;
+	background-color: black;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	padding: 60px 0 40px 0;
 }
 
-#about:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+#about:hover {
+	background-color: rgba(13, 20, 41, 1);
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+	color: #fff;
+	padding: 60px 0 40px 0;
 }
 
 #about h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #fff;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #fff;
 }
 
 #about h3 {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #fff;
 }
 
 #about p {
-    font-size: 14px;
-    font-family: fantasy;
-    margin-bottom: 20px;
-    color: #fff;
+	font-size: 14px;
+	font-family: fantasy;
+	margin-bottom: 20px;
+	color: #fff;
 }
 #abu p{
 	font-family: 'Source Sans Pro', sans-serif;
