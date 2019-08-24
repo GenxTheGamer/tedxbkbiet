@@ -15,11 +15,25 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 		<script src="topbtn.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					var scroll = $(window).scrollTop();
+					if (scroll > 300) {
+						$(".black").css("background" , "url(img/pw_maze_black.png)");
+					}
+
+					else{
+						$(".black").css("background" , "darkslategray");  	
+					}
+				})
+			})</script>
+
 
 	</head><button onclick="topFunction()" type="button" class="btn " id="upbtn" style="">&uarr;</button>
 	<body data-spy="scroll" data-target="#nav" data-offset="0">
 		<!-- NavBar -->
-		<nav class="navbar fixed-top  navbar-dark" id="nav" style="background-image: url(img/pw_maze_black.png)">
+		<nav class="navbar fixed-top  navbar-dark black" id="nav" style="background: darkslategray">
 			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="img/favicon-80x80.png" width="50" height="50"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 				<!--dropdown menu at far right when opened in mobile-->
@@ -177,7 +191,7 @@
 		</div>	
 
 		<!-- --- -->
-	
+
 		<footer class="footer">
 			<div class="container-fluid text-center">
 
