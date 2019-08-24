@@ -17,6 +17,7 @@ img {
 	text-align: center;
 	display: flex;
 	align-items: center;
+	background-attachment: fixed;
 }
 #cover-caption{
 	width: 100%;
