@@ -65,6 +65,7 @@ p#footerline{
 #text-justify{
 	text-align: center;
 }
+
 /*--------------------------------------------------------------
 # HR Styling
 --------------------------------------------------------------*/
@@ -99,7 +100,7 @@ color:darkred;
 }
 
 #about:hover {
-	background-color: rgba(13, 20, 41, 1);
+	background-color: #e62b1e/*rgba(13, 20, 41, 1)*/;
 	background-size: cover;
 	overflow: hidden;
 	position: relative;
