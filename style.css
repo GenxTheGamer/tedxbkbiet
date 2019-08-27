@@ -1,3 +1,5 @@
+@import "fonts.css";
+
 html,
 body{
 	margin: 0px;
@@ -8,7 +10,7 @@ img {
 	max-width: 100%;
 }
 
-@import "fonts.css";
+
 
 #cover{
 	background: url('img/cover.jpg') center center no-repeat;
@@ -97,7 +99,7 @@ color:darkred;
 	position: relative;
 	color: #fff;
 	padding: 60px 0 40px 0;
-	cursor: pointer;
+	cursor:pointer;
 }
 
 #about:hover {
@@ -112,6 +114,7 @@ color:darkred;
 #about h2 {
 	font-size: 36px;
 	font-weight: bold;
+	font-family: alidth;
 	margin-bottom: 10px;
 	color: #fff;
 }
@@ -122,16 +125,21 @@ color:darkred;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	color: #fff;
+	font-family: alidth;
 }
 
 #about p {
 	font-size: 14px;
-	font-family: fantasy;
+	font-family: google;
 	margin-bottom: 20px;
 	color: #fff;
 }
 #abu p{
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: google;
+}
+#abu h1{
+	
+	font-family: lemonmilk;
 }
 #head {
 	font-family:gracetians;
