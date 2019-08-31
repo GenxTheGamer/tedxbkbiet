@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+.count p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+</style>
 	<head>
 		<title>TEDxBKBIET</title>
-		<link rel="shortcut icon" href="img/favicon-80x80.png" /> <!-- TEDx Logo -->
+		<link rel="shortcut icon" href="img/favicon.png" sizes="100x100" /> <!-- TEDx Logo -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -76,11 +83,279 @@
 						<b style="color: whitesmoke;font-size: 50px;font-family: gracetians">Ideas worth spreading</b>
 					</div>
 				</div>
-			</div>
-		</section>
-		<br>	<hr class="styleline">
 
-		<!-- --- -->
+				<!--Countdown Clock  -->
+				<div class="count">
+				
+<div id="clockdiv"> 
+  <div> 
+    <span class="days" id="day"></span> 
+    <div class="smalltext">Days</div> 
+  </div> 
+  <div> 
+    <span class="hours" id="hour"></span> 
+    <div class="smalltext">Hours</div> 
+  </div> 
+  <div> 
+    <span class="minutes" id="minute"></span> 
+    <div class="smalltext">Minutes</div> 
+  </div> 
+  <div> 
+    <span class="seconds" id="second"></span> 
+    <div class="smalltext">Seconds</div> 
+  </div> 
+</div> 
+  
+<p id="demo"></p> 
+  
+<script> 
+  
+var deadline = new Date("oct 4, 2019 15:37:25").getTime(); 
+  
+var x = setInterval(function() { 
+  
+var now = new Date().getTime(); 
+var t = deadline - now; 
+var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+document.getElementById("day").innerHTML =days ; 
+document.getElementById("hour").innerHTML =hours; 
+document.getElementById("minute").innerHTML = minutes;  
+document.getElementById("second").innerHTML =seconds;  
+if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("demo").innerHTML = "TIME UP"; 
+        document.getElementById("day").innerHTML ='0'; 
+        document.getElementById("hour").innerHTML ='0'; 
+        document.getElementById("minute").innerHTML ='0' ;  
+        document.getElementById("second").innerHTML = '0'; } 
+}, 1000); 
+</script> 
+</div>
+ <a href="aboutus.html"> <button type="button" class="learn-button">Buy Now</button></a>
+</div>
+</section>
+
+<br>
+		<!-- about tedxbkbiet  -->
+		<div class="content">
+	<div class="gm-content">
+  <h1>Welcome To TEDx BKBIET </h1>
+  <p>You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.</p>
+ 
+</div>
+</div>
+
+<div class="tedx">
+<h1>About TEDx BKBIET</h1>
+<h2>TEDx BKBIET is a student-run independently organized </h2>
+ <p>TED is a global community, welcoming people from every discipline and culture who seek a deeper understanding of the world. Ted believe passionately in the power of ideas to change attitudes, lives and, ultimately, the world. On TED.com, Ted is building a clearinghouse of free knowledge from the world's most inspired thinkers — and a community of curious souls to engage with ideas and each other, both online and at TED and TEDx events around the world, all year long.</p>
+
+  <a href="aboutus.html"> <button type="button" class="read-button">Read More</button></a>
+  </div> 
+
+<!-- our team -->
+
+<div class="team" id="team">
+<h1 style="text-align:center">Our Team</h1>
+<p>A team is a group of individuals working together to achieve their goal.</p>
+
+</div>
+
+
+<div class="row" style="padding-top:30px">
+  <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="appoinment.php"><img  src="img/curator.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Curator</h2>
+    <p>
+		Ankur Kedia <br>
+		Amit Tiwari <br>
+		Devansh Bhatnagar<br>
+		Manvi Sharma<br>
+		Yash Mor<br><br>
+		</p>
+    </div>
+  </div>
+
+ <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="appoinment.php"><img  src="img/executive.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Executive Producer</h2>
+   <p>
+	Kushagra Tayal <br>
+	Niqunj Jindal <br>
+	Parth Arya<br>
+	Riju Mittal<br>
+	</p>
+    </div>
+  </div>
+
+  
+ <div class="column1">
+    <div id="Tutorial" class="card">
+  <a href="appoinment.php"><img  src="img/event.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Event Manager</h2>
+    <p>
+						
+	Ayushi Mittal <br>
+	Manoj Kumar Tak<br>
+	Pinky <br>
+	Rekha <br>
+	Tushar Budhiraja <br>
+	Vishnu
+	</p>
+						
+    </div>
+  </div>
+
+  <div class="column1">
+    <div id="Tutorial" class="card">
+    
+   <a href="appoinment.php"><img  src="img/sponsorship.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Sponsorships And Budget Manager</h2>
+   <p>
+   	Abhinav Gupta <br>
+	Manish Kumar Saini <br>
+	Anshita Mittal<br>
+	Karan Singh Solanki<br>
+	Himanshu Tripathi
+	</p>
+
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+<div class="row" style="padding-top:30px">
+  <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="appoinment.php><img  src="img/design.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Designer And Video Producer</h2>
+    <p>
+		Ankit Sharma <br>
+		Ujjwal Singh <br>
+		Vedant<br><br><br><br><br><br><br><br><br>
+		</p>
+    </div>
+  </div>
+
+ <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="appoinment.php"><img  src="img/marketing.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Communications, Editorial And Marketing Director</h2>
+   <p>
+		Anuj Dada <br>
+		Avantika Jamwal <br>
+		Cherry Vaish<br>
+		Shreenidhi Vyas<br>
+		Priyansh Lakhotia<br>
+		Mansi Gupta
+		</p>
+    </div>
+  </div>
+
+  
+ <div class="column1">
+    <div id="Tutorial" class="card">
+  <a href="appoinment.php"><img  src="img/websites.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Website Manager</h2>
+    <p>
+	Gulshan Malav<br>
+	Sameer Saini<br>
+	Vaibhav Vyas <br>
+	Yogesh Jakhar<br><br><br><br><br><br><br><br>
+		</p>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div id="Tutorial" class="card">
+    
+   <a href="appoinment.php"><img  src="img/volunteer.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Volunteers</h2>
+    <p>
+	Abhishek Soni <br>
+	Aashiwal Nirmal <br>
+	Jayant Kumar<br>
+	Rishabh Rana<br>
+	Tanmay Sharma <br>
+	Tapish Chourasiya<br><br><br><br><br><br>
+	</p>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- contact us-->
+
+
+ <div class="contact" style="padding-top:30px" id="Contact">
+<h1>Contact Us</h1>
+<p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+</div>
+<br>
+
+<div class="row" style="padding-top:30px">
+  <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="planets/sun.php"><img  src="img/address.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Address</h2>
+     <p>B.K.Birla Institute of Engineering and Technology, Pilani, Rajasthan 333031</p>
+   
+    </div>
+  </div>
+
+ <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="planets/sun.php"><img  src="img/email.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Email Address</h2>
+     <p>jatinpremjani7@gmail.com</p>
+     
+    </div>
+  </div>
+
+  
+ <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="planets/sun.php"><img  src="img/phone1.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Contact Number </h2>
+     <p>+91-7737202546</p>
+     
+    </div>
+  </div>
+
+  <div class="column1">
+    <div id="Tutorial" class="card">
+    
+    <a href="planets/sun.php"><img  src="img/Website.png" alt="department" height="60px" width="60px"> <br></a> 
+    <h2 style="color:black;text-align:center">Website</h2>
+     <p>www.tedxbkbiet.com</p>
+     
+    </div>
+  </div>
+</div>
+<br>
+<!-- map -->
+
+		<div class="col-sm " style="padding:0rem;background-color:gainsboro;height: 300px;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.6724756668225!2d75.5889184055612!3d28.368223398789585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131bd8fa3e1421%3A0xd7928a8c86ca1d5e!2sBK+BIRLA+INSTITUTE+OF+ENGINEERING+AND+TECHNOLOGY%2C+PILANI!5e0!3m2!1sen!2sin!4v1561527571815!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+
+<!-- about event -->
 
 		<section id="about">
 			<div class="container">
@@ -100,10 +375,7 @@
 				</div>
 			</div>
 		</section>
-		<div class="col-sm " style="padding:0rem;background-color:gainsboro;height: 300px;">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.6724756668225!2d75.5889184055612!3d28.368223398789585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131bd8fa3e1421%3A0xd7928a8c86ca1d5e!2sBK+BIRLA+INSTITUTE+OF+ENGINEERING+AND+TECHNOLOGY%2C+PILANI!5e0!3m2!1sen!2sin!4v1561527571815!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-		</div>
-
+		
 		<footer class="footer">
 			<div class="container-fluid text-center">
 
