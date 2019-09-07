@@ -90,13 +90,13 @@ p#footerline{
 #clockdiv > div{ 
     padding: 10px; 
     border-radius: 3px; 
-    background: black; 
+    background: transparent; 
     display: inline-block; 
 } 
 #clockdiv div > span{ 
     padding: 15px; 
     border-radius: 3px; 
-    background: #1a0000; 
+    background: rgb(220, 53, 69);; 
     display: inline-block; 
 } 
 .smalltext{ 
@@ -167,11 +167,10 @@ p#footerline{
 .tedx{
 	height: 420px;
 	width: 100%;
-	background: url(img/events.jpg);
-	margin: 0;
-	padding: 0;
+	background: url(img/events.jpg) center center no-repeat;
 	display: inline-block;
 	background-size:cover;
+	background-attachment: fixed;
 	 text-align: center;
 	 text-align:left;
 	 padding-left:30px;
@@ -193,10 +192,6 @@ p#footerline{
 .tedx h1 {
 	color:red;
 	font-size:40px;
-	-webkit-text-stroke:1px #ff1a1a;
-	-moz-text-stroke:1px #ff1a1a;
-	-ms-text-stroke:1px #ff1a1a;
-    -o-text-stroke:1px #ff1a1a;
 }
 .tedx h2{
 	color: white;

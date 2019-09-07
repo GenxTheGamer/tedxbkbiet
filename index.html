@@ -22,25 +22,12 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 		<script src="topbtn.js"></script>
-		<script>
-			$(document).ready(function(){
-				$(window).scroll(function(){
-					var scroll = $(window).scrollTop();
-					if (scroll > 300) {
-						$(".black").css("background" , "url(img/pw_maze_black.png)");
-					}
-
-					else{
-						$(".black").css("background" , "transparent");  	
-					}
-				})
-			})</script>
-
+	
 	</head>
 	<button onclick="topFunction()" type="button" class="btn " id="upbtn" style="">&uarr;</button>
 	<body data-spy="scroll" data-target="#nav" data-offset="0">
 		<!-- NavBar -->
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" style="background-image: ">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" style="background-image: url(img/pw_maze_black.png)">
 			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="img/favicon-80x80c.png"  height="50" style="padding-left: 20px;"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 				<!--dropdown menu at far right when opened in mobile-->
@@ -60,9 +47,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link" href="aboutus.html">ABOUT US</a> 
 						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="team.html">TEAM</a>
-						</li>
+					
 						<li class="nav-item">
 							<a class="nav-link" href="gallery.html">GALLERY</a>
 						</li>
@@ -77,16 +62,16 @@
 		<section id="cover">
 			<div id="cover-caption">
 				<div class="container">
-					<div class="col-sm text-white" style="padding-top: 25px;">
+					<div class="col-sm text-white" style="padding-top: 105px;">
 						<!--<img src="img/TEDxBKBIET6.png" style="height: 100px;">-->
-						<b style="color: whitesmoke;font-size: 50px;font-family: lemonmilk">Ideas worth spreading</b>
+						<b style="color: whitesmoke;font-size: 50px;font-family: gracetians">Ideas worth spreading</b>
 					</div>
 				</div>
 
 				<!--Countdown Clock  -->
 				<div class="count">
 				
-<div id="clockdiv"> 
+<div id="clockdiv" style="font-family: google"> 
   <div> 
     <span class="days" id="day"></span> 
     <div class="smalltext">Days</div> 
@@ -110,8 +95,8 @@
 <script src="timer.js"></script>
 </div>
  <a href="aboutus.html">
- <br>
- <button type="button" class="btn btn-danger">Book Now</button>
+ <br><br>
+ <button type="button" class="btn btn-danger btn-lg" style="width:200px;font-family: google">Book Now</button>
  </a>
 </div>
 </section>
@@ -119,19 +104,18 @@
 <br>
 		<!-- about tedxbkbiet  -->
 		<div class="content">
-	<div class="gm-content">
-  <h1>Welcome To TEDx BKBIET </h1>
-  <p>You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.</p>
+	<div class="gm-content" >
+  <h1 style="font-family:lux-montag">Welcome To TEDx BKBIET </h1>
+  <p style="font-family: google">You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.</p>
  
 </div>
 </div>
 
-<div class="tedx">
-<h1>About TEDx BKBIET</h1>
-<h2>TEDx BKBIET is a student-run independently organized </h2>
- <p>TED is a global community, welcoming people from every discipline and culture who seek a deeper understanding of the world. Ted believe passionately in the power of ideas to change attitudes, lives and, ultimately, the world. On TED.com, Ted is building a clearinghouse of free knowledge from the world's most inspired thinkers — and a community of curious souls to engage with ideas and each other, both online and at TED and TEDx events around the world, all year long.</p>
+<div class="tedx" style="height: 425px;"><div  style="padding-left: 25px;margin: 25px;padding-bottom: 20px;background-color: rgba(0,0,0,0.8)">
+<h1 style="font-family: lemonmilk">About TEDx <x style="color: white">BKBIET</x></h1>
+ <p style="font-family: google">TED is a global community, welcoming people from every discipline and culture who seek a deeper understanding of the world. Ted believe passionately in the power of ideas to change attitudes, lives and, ultimately, the world. On TED.com, Ted is building a clearinghouse of free knowledge from the world's most inspired thinkers — and a community of curious souls to engage with ideas and each other, both online and at TED and TEDx events around the world, all year long.</p>
 
-  <a href="aboutus.html"> <button type="button" class="read-button">Read More</button></a>
+	<a href="aboutus.html"> <button type="button" class="btn btn-danger btn-lg" style="font-family: google">Read More</button></a></div>
   </div> 
 <div style="height: 50px"></div>
 <!-- map -->
