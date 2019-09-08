@@ -287,8 +287,9 @@ p#footerline{
 
 #speakers .speaker-item h4 {
   font-size: 14px;
-  color: rgb(150, 53, 69);
+  color: rgb(160, 53, 69);
   margin: 0 0 15px 0;
+	font-family: google;
 }
 #speakers .speaker-item p {
   font-style: italic;
