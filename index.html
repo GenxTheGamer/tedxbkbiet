@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<style>
+		.count p {
+			text-align: center;
+			font-size: 60px;
+			margin-top: 0px;
+		}
+	</style>
+	<head>
+		<title>TEDxBKBIET</title>
+		<link rel="shortcut icon" href="img/favicon.png" sizes="100x100" /> <!-- TEDx Logo -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="style.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<script src="topbtn.js"></script>
+
+	</head>
+	<button onclick="topFunction()" type="button" class="btn " id="upbtn" style="">&uarr;</button>
+	<body data-spy="scroll" data-target="#nav" data-offset="0">
+		<!-- NavBar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" style="background-image: url(img/pw_maze_black.png)">
+			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="img/favicon-80x80.png"  height="50" style="padding-left: 20px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+				<!--dropdown menu at far right when opened in mobile-->
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="row" style="width: 100%" style="text-align: center">
+				<div class="col-4 collapse navbar-collapse iconnav" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto" >
+					</ul>
+				</div>	
+				<div class="col-8 collapse navbar-collapse topnav" id="navbarSupportedContent">
+					<!-- Links -->
+					<ul class="navbar-nav  ml-auto" >
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="aboutus.html">ABOUT US</a> 
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">GALLERY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contactus.html">SPONSORS</a>
+						</li>
+					</ul> 
+				</div>
+			</div>
+		</nav>
+		<!-- --- -->
+		<section id="cover">
+			<div id="cover-caption">
+				<div class="container">
+					<div class="col-sm text-white" style="padding-top: 105px;">
+						<!--<img src="img/TEDxBKBIET6.png" style="height: 100px;">-->
+						<b style="color: whitesmoke;font-size: 50px;font-family: gracetians">Ideas worth spreading</b>
+					</div>
+				</div>
+
+				<!--Countdown Clock  -->
+				<div class="count">
+
+					<div id="clockdiv" style="font-family: google"> 
+						<div> 
+							<span class="days" id="day"></span> 
+							<div class="smalltext">Days</div> 
+						</div> 
+						<div> 
+							<span class="hours" id="hour"></span> 
+							<div class="smalltext">Hours</div> 
+						</div> 
+						<div> 
+							<span class="minutes" id="minute"></span> 
+							<div class="smalltext">Minutes</div> 
+						</div> 
+						<div> 
+							<span class="seconds" id="second"></span> 
+							<div class="smalltext">Seconds</div> 
+						</div> 
+					</div> 
+
+					<p id="demo"></p> 
+
+					<script src="timer.js"></script>
+				</div>
+				<a href="aboutus.html">
+					<br><br>
+					<button type="button" class="btn btn-danger btn-lg" style="width:200px;font-family: google">Book Now</button>
+				</a>
+			</div>
+		</section>
+
+		<br>
+		<!-- about tedxbkbiet  -->
+		<div class="container">
+			<div class="col text-center" style="padding: 50px;">
+				<h1 style="font-family:lux-montag">Welcome To TEDx BKBIET </h1>
+				<p style="font-family: google">You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.</p>
+
+			</div>
+		</div>
+
+		<div class="tedx" ><div class="container" ><div class="col" style="margin: 0px;padding-bottom: 20px;background-color: rgba(0,0,0,0.8)">
+			<h1 style="font-family: lemonmilk">About TEDx <x style="color: white">BKBIET</x></h1>
+			<p style="font-family: google">“TEDx brings the spirit of TED’s mission of ideas worth spreading to local communities around the globe. TEDx events are organized by curious individuals who seek to discover ideas and spark conversations in their own community. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED.”</p>
+
+			<a href="aboutus.html"> <button type="button" class="btn btn-danger btn-lg" style="font-family: google">Read More</button></a></div>
+			</div> </div>
+		<!-- EVENT SPEAKERS -->
+		<section id="speakers" class="section-bg wow fadeInUp">
+			<div class="container">
+
+				<header class="section-header" style="text-align: center">
+					<h3><b>EVENT SPEAKERS</b></h3>
+					<hr class="styleline" style="width: 53%;">
+				</header>
+				<br>
+				<div class="row owl-carousel speaker-carousel">
+
+					<div class="col-sm speaker-item">
+						<img src="./speakers/main-thumb-14862111-200-dfohiojaezodackfnntlivmaootnwljr.jpeg" class="speaker-img" alt="">
+
+						<h3>Ajinkya Kolhe 
+							<a href="https://www.linkedin.com/in/ajinkyakolhe112/" ><img class="in" src="icon/in1.png" style="height:30px;"></a>
+						</h3>
+						<h4>Data & Machine Learning instructor at Google. Speaker for Artificial intelligence & Data analytics.</h4>
+
+					</div>
+
+					<div class="col-sm speaker-item">
+						<img src="./speakers/Anubha-Maneshwar-founder-of-GirlScript.jpg" class="speaker-img" alt="">
+						<h3>Anubha Maneshwar
+							<a href="https://www.linkedin.com/in/anubhamane/" ><img class="in" src="icon/in1.png" style="height:30px;"></a>
+						</h3>
+						<h4>Founder at GirlScript- India's Biggest Tech Community and Organisation to support beginners</h4>
+					</div>
+
+					<div class="col-sm speaker-item">
+						<img src="./speakers/cover-320.jpg" class="speaker-img" alt="">
+						<h3>Janhavi Panwar
+							<a href="https://twitter.com/janhavipanwar?lang=en"><img class="twit" src="icon/twit2.png" style="height:30px;"></a>
+						</h3>
+						<h4>The 14-Year-Old ‘Wonder Girl Of India’</h4>
+					</div>       
+					<div class="col-sm speaker-item">
+						<img src="./speakers/peta.JPG" class="speaker-img" alt="">
+						<h3>Dr. Manilal Valliyate
+							<a href="https://twitter.com/drmanilal?lang=en"><img class="twit" src="icon/twit2.png" style="height:30px;"></a>
+						</h3>
+						<h4>CEO of PETA India. Former co-opted member of the Animal Welfare Board of India</h4>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Speaker section ends -->		
+		<!-- map -->
+
+		<div class="col-sm " style="padding:0rem;background-color:gainsboro;height: 300px;">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d877.6724756668225!2d75.5889184055612!3d28.368223398789585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39131bd8fa3e1421%3A0xd7928a8c86ca1d5e!2sBK+BIRLA+INSTITUTE+OF+ENGINEERING+AND+TECHNOLOGY%2C+PILANI!5e0!3m2!1sen!2sin!4v1561527571815!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+
+
+		<!-- about event -->
+
+		<section id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<h2>About The Event</h2>
+						<p>TEDx BKBIET is a student-run independently organized TED event at B K Birla Institute of Engineering and Technology. The First edition of TEDxBKBIET is scheduled on 4th Oct 2019.</p>
+					</div>
+					<div class="col-lg-3">
+						<h3>Where</h3>
+						<p>BKBIET, Pilani, Rajasthan</p>
+					</div>
+					<div class="col-lg-3">
+						<h3>When</h3>
+						<p> 4th Oct 2019.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container-fluid text-center">
+
+				<div class="row">
+					<br>
+					<div class="col-sm-3" style="text-align: center;padding-left: 10px;padding-top: 10px;"><img src="img/TEDxBKBIET6.png" style="height: 100px;"></div>					
+					<div class="col-sm-6  text-center footfollow">
+						<br>
+						<h3 style="color: white;font-family: lux-montag">Follow us on</h3><br>
+						<a href="https://www.instagram.com/tedx__bkbiet/" ><img class="insta" src="icon/insta3.png" style="height:30px;"></a>
+						<a href="https://twitter.com/TEDxBkbiet"><img class="twit" src="icon/twit2.png" style="height:30px;"></a>
+						<a href="https://www.linkedin.com/company/tedxbkbiet/" ><img class="in" src="icon/in1.png" style="height:30px;"></a>
+					</div>
+
+				</div>
+				<br>
+				<p style="text-align: center;font-family:monospace;color: darkgray">Tedx@bkbiet.ac.in</p>
+				<p id="footerline"> | © 2019 TEDxBKBIET All Rights Reserved |</p>
+				<br>
+			</div>
+		</footer>
+	</body>
+</html>
