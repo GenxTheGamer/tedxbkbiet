@@ -72,36 +72,36 @@ p#footerline{
 --------------------------------------------------------------*/
 
 .count{ 
-    text-align: center; 
-  
-  font-family: sans-serif; 
-  font-weight: 100;
-   margin-top: 40px;
+	text-align: center; 
+
+	font-family: sans-serif; 
+	font-weight: 100;
+	margin-top: 40px;
 } 
 
- #clockdiv{ 
-    font-family: sans-serif; 
-    color: #fff; 
-    display: inline-block; 
-    font-weight: 100; 
-    text-align: center; 
-    font-size: 30px; 
+#clockdiv{ 
+	font-family: sans-serif; 
+	color: #fff; 
+	display: inline-block; 
+	font-weight: 100; 
+	text-align: center; 
+	font-size: 30px; 
 } 
 #clockdiv > div{ 
-    padding: 10px; 
-    border-radius: 3px; 
-    background: transparent; 
-    display: inline-block; 
+	padding: 10px; 
+	border-radius: 3px; 
+	background: transparent; 
+	display: inline-block; 
 } 
 #clockdiv div > span{ 
-    padding: 15px; 
-    border-radius: 3px; 
-    background: rgb(220, 53, 69);; 
-    display: inline-block; 
+	padding: 15px; 
+	border-radius: 3px; 
+	background: rgb(220, 53, 69);; 
+	display: inline-block; 
 } 
 .smalltext{ 
-    padding-top: 5px; 
-    font-size: 16px; 
+	padding-top: 5px; 
+	font-size: 16px; 
 }
 
 /*--------------------------------------------------------------
@@ -117,17 +117,17 @@ p#footerline{
 	padding:10px 15px;
 	margin-left: 20px;
 	cursor:pointer;
-	 margin-top: 30px;
+	margin-top: 30px;
 
 
-	}
-	@media  screen and (max-width: 600px){
-.learn-button{
-	text-align: center;
+}
+@media  screen and (max-width: 600px){
+	.learn-button{
+		text-align: center;
 
-}	
+	}	
 
-	}
+}
 
 
 /*--------------------------------------------------------------
@@ -141,40 +141,20 @@ p#footerline{
 	padding-bottom:35px;
 
 }
-.gm-content h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 40px;
-	text-align:center;
-	padding-top:3%;
-	padding-bottom:2px;
-	}
-	.gm-content p{
-	width: 80%;
-	text-align: center;
-	font-size: 17px;
-	padding-left:200px;
-}
-@media screen and (max-width: 600px) {
-   .gm-content p{ 
-     width: 80%;
-	padding-left:100px;
-	text-align:center;
-
-   }
-}
 
 
 .tedx{
-	height: 420px;
+	height: 100%;
 	width: 100%;
 	background: url(img/events.jpg) center center no-repeat;
 	display: inline-block;
 	background-size:cover;
 	background-attachment: fixed;
-	 text-align: center;
-	 text-align:left;
-	 padding-left:30px;
-	
+	text-align: center;
+	text-align:left;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
 
 }
 
@@ -191,163 +171,21 @@ p#footerline{
 
 .tedx h1 {
 	color:red;
-	font-size:40px;
+
 }
 .tedx h2{
 	color: white;
+
 	
-	width: 500px;
 
 }
 
 
 .tedx p{
 	color: white;
-	
-	width: 500px;
+
 
 }
-
-	@media  screen and (max-width: 600px){
-	.tedx{
-	height: 500px;
-	width: 100%;
-	text-align: justify;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-	background-size:cover;
-	 text-align: center;
-	 text-align:left;
-	 padding-left:30px;
-
-}
-
-
-.tedx p{
-	font-size: 16px;
-	width: 350px;
-}
-
-}
-
-.read-button{
-	color:white;
-	font-size:20px;
-	border-color: #0a0a0f; 
-	border-radius:30px;
-	background-color:black;
-	padding:10px 15px;
-	margin-left: 20px;
-	cursor:pointer;
-
-	}
-
-/*--------------------------------------------------------------
-# our team
---------------------------------------------------------------*/
-
-
-.team h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
-	text-align:left;
-	padding-top:3%;
-	padding-bottom:0px;
-	padding-left: 10px;
-	background-size:cover;
-	background-position:center;
-}
-
-.team h1 {
-	color:#14141f;
-	font-size:40px;
-	-webkit-text-stroke:1px #000000;
-	-moz-text-stroke:1px #000000;
-	-ms-text-stroke:1px #000000;
-    -o-text-stroke:1px #000000;
-}
-
-.team p{
-
-	font-size: 17px;
-    width: 80%;
-	padding-left:150px;
-	text-align:center;
-	
-}
-@media screen and (max-width: 600px) {
-   .team p{ 
-     width: 80%;
-	padding-left:100px;
-	text-align:center;
-   }
-}
-
-
-
-/* Float four columns side by side */
-.column1 {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-.column1 p{
-
-	text-align: center;
-
-}
-
-@media screen and (max-width: 600px) {
-  .column1 {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-  
-}
-.column1:hover{
- box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
- cursor: pointer;
-
-}
-/* Style the counter cards */
-.card {
-  
-  padding: 15px;
- text-align: center;
-  background-color:white;
-  
-
-}
-
-.card p{
-	color: #808080;
-}
-/*--------------------------------------------------------------
-# contact
---------------------------------------------------------------*/
-
-.contact{
-	height: 150px;
-	width: 100%;
-	font-size: 17px;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
-	 text-align: center;
-	 
-}
-
-	
-
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -397,7 +235,7 @@ p#footerline{
 	font-family: google;
 }
 #abu h1{
-	
+
 	font-family: lemonmilk;
 }
 #head {
@@ -406,4 +244,9 @@ p#footerline{
 }
 #team p{
 	font-family: google;
+}
+
+
+.footfollow a{
+	padding: 8px;
 }
