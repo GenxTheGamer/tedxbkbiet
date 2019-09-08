@@ -38,3 +38,7 @@
     font-family:"lemonmilk";
     src:url("fonts/lm/LemonMilklight.otf");
 }
+@font-face{
+    font-family:"roboto";
+    src:url("fonts/roboto/Roboto-ThinItalic.ttf");
+}

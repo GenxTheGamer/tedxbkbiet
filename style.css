@@ -250,3 +250,44 @@ p#footerline{
 .footfollow a{
 	padding: 8px;
 }
+
+/* SPEAKER SECTION
+--------------------------------*/
+
+#speakers {
+  padding: 60px 0;
+    
+}
+
+#speakers .section-header {
+  margin-bottom: 40px;
+    font-family: roboto;
+}
+
+#speakers .speaker-item {
+  text-align: center;
+}
+
+#speakers .speaker-item .speaker-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+
+#speakers .speaker-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+#speakers .speaker-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+}
+#speakers .speaker-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+}
