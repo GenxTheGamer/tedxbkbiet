@@ -309,6 +309,16 @@ hr.styleline {
 	background-image: -o-linear-gradient(left, #f0f0f0,rgb(220, 53, 69), #f0f0f0);
 }
 
+hr.styleli { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, rgb(0,0,0), #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, rgb(0,0,0), #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, rgb(0,0,0), #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0,rgb(0,0,0), #f0f0f0);
+}
+
+
 
 /*************************/
 
@@ -321,3 +331,8 @@ hr.styleline {
 #cover-caption{
 	width: 100%;
 }
+
+#myinv{
+    padding: 50px;
+}
+

@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+	<style>
+		.count p {
+			text-align: center;
+			font-size: 60px;
+			margin-top: 0px;
+		}
+	</style>
 	<head>
-		<title>About TEDxBkbiet</title>
-		<link rel="shortcut icon" href="img/favicon-80x80.png" /> <!-- TEDx Logo -->
+		<title>TEDxBKBIET</title>
+		<link rel="shortcut icon" href="img/favicon-80x80.png" sizes="100x100" /> <!-- TEDx Logo -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -15,43 +22,25 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 		<script src="topbtn.js"></script>
-		<style>
-			@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap');
-		</style> 
-
-		<script>
-			$(document).ready(function(){
-				$(window).scroll(function(){
-					var scroll = $(window).scrollTop();
-					if (scroll > 300) {
-						$(".black").css("background" , "url(img/pw_maze_black.png)");
-					}
-
-					else{
-						$(".black").css("background" , "black");  	
-					}
-				})
-			})</script>
-
 
 	</head>
 	<button onclick="topFunction()" type="button" class="btn " id="upbtn" style="">&uarr;</button>
 	<body data-spy="scroll" data-target="#nav" data-offset="0">
 		<!-- NavBar -->
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" style="background: black">
-			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="img/TEDxBKBIET6.png"  height="24" style="padding-left: 15px;"></a>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark black" id="nav" style="background-image: url(img/pw_maze_black.png)">
+			<a class="navbar-brand" href="index.html" style="font-family:tesla;"><img src="img/TEDxBKBIET6.png"  height="24" ></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 				<!--dropdown menu at far right when opened in mobile-->
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="row" style="width: 100%">
+			<div class="row" style="width: 100%" style="text-align: center">
 				<div class="col-4 collapse navbar-collapse iconnav" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto" >
 					</ul>
 				</div>	
 				<div class="col-8 collapse navbar-collapse topnav" id="navbarSupportedContent">
 					<!-- Links -->
-					<ul class="navbar-nav ml-auto">
+					<ul class="navbar-nav  ml-auto" >
 						<li class="nav-item">
 							<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
 						</li>
@@ -63,40 +52,46 @@
 							<a class="nav-link" href="gallery.html">GALLERY</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="sponsor.html">SPONSORS</a>
+							<a class="nav-link" href="">SPONSORS</a>
 						</li>
 					</ul> 
 				</div>
 			</div>
 		</nav>
-		<div style="height: 100px;"></div>
+		
 		<!-- --- -->
-		<!-- AboutUs Text -->
-		<div class="container" id="abu">
-			<h1>
-				About TED
-			</h1>
-			<p class="lead">TED is a global community, welcoming people from every discipline and culture who seek a deeper understanding of the world. Ted believe passionately in the power of ideas to change attitudes, lives and, ultimately, the world. On TED.com, Ted is building a clearinghouse of free knowledge from the world's most inspired thinkers — and a community of curious souls to engage with ideas and each other, both online and at TED and TEDx events around the world, all year long.</p>
-			<p class="lead">TEDx brings the spirit of TED’s mission of ideas worth spreading to local communities around the globe. TEDx events are organized by curious individuals who seek to discover ideas and spark conversations in their own community.<b style="color: red"> TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED.</b>    
-			</p>
-			<br>
-			<hr class="styleline">
-			<br>
-			<h1>
-				What is TED<x style="font-family: google">x</x>BKBIET?
-			</h1>
-			<p class="lead">
-				TEDx BKBIET is a student-run independently organized TED event at B K Birla Institute of Engineering and Technology. The First edition of TEDxBKBIET is scheduled on 4th Oct 2019.</p>
-			<p class="lead">
-				TEDxBKBIET is a full-day event being curated by B K Birla Institute of Engineering and Technology. Our goal is to bring together bright minds to give talks that are idea-focused, and on a wide range of subjects, to foster learning, inspiration, and provoke conversations that matter.
-			</p>
-			<br>
-			<hr class="styleline">
-			<br>
-		</div>
+		<section class="spons">
 
-		<!-- ---   
-<div style="height: 700px"></div>-->  
+			<div class="container">	
+                <br><br><br>
+                <div class="row ">
+                    <div class="col text-center">
+                        <h1 style="font-family: lemonmilk;font-size: 60px">sponsors</h1>
+                    </div>
+                    
+                </div>
+                <hr class="styleline" style="width:50%">
+                <br>
+                <br>
+                <div class="row justify-content-center" id="myinv">
+                    <div class="col-sm text-center" style="padding-bottom: 40px;">
+                        <a href="http://www.myinvented.com"><img src="LOgpp.png" style="height: 200px;padding-bottom: 20px;"></a>            <h4 style="font-family: gracetians;    ">Myinvented.com</h4>
+                          
+                    </div>
+        
+                    <div class="col-sm text-center">
+                        <a href="https://mailchimp.com/"><img src="Mc.jpg" style="height: 200px;padding-bottom: 20px;"></a>            <h4 style="font-family: gracetians;    ">MailChimp</h4>
+                          
+                    </div>
+                </div>
+				
+			</div>
+
+		</section>
+
+<hr class="styleline">
+
+	
 		<footer class="footer">
 			<div class="container-fluid text-center">
 
